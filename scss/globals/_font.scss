@@ -1,0 +1,49 @@
+/*============================FONT============================*/
+@font-face {
+  font-family: Raleway;
+  font-weight: 400;
+  font-style: normal;
+  src: local("Bergen"),
+       url("../fonts/Raleway-Regular.woff2") format('woff2'),
+       url("../fonts/Raleway-Regular.woff") format('woff'),
+       url("../fonts/Raleway-Regular.woff2") format('eot');
+  font-display: swap;
+}
+@font-face {
+  font-family: Raleway;
+  font-weight: 700;
+  font-style: normal;
+  src: local("Bergen"),
+       url("../fonts/Raleway-Bold.woff2") format('woff2'),
+       url("../fonts/Raleway-Bold.woff") format('woff'),
+       url("../fonts/Raleway-Bold.eot") format('eot');
+  font-display: swap;
+}
+@font-face {
+  font-family: Canale;
+  font-weight: bold;
+  font-style: normal;
+  src: local("Canale"),
+       url("../fonts/canela_bold.woff2") format('woff2'),
+       url("../fonts/canela_bold.woff") format('woff'),
+       url("../fonts/canela_bold.eot") format('eot');
+  font-display: swap;
+}
+@font-face {
+  font-family: inter;
+  font-weight: bold;
+  font-style: normal;
+  src: local("Bergen"),
+       url("../fonts/Inter-Bold.woff2") format('woff2'),
+       url("../fonts/Inter-Bold.woff2") format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: inter;
+  font-weight: 400;
+  font-style: normal;
+  src: local("Bergen"),
+       url("../fonts/Inter-Regular.woff2") format('woff2'),
+       url("../fonts/Inter-Regular.woff2") format('woff');
+  font-display: swap;
+}
