@@ -25,6 +25,26 @@ function timeBetweenDates(toDate) {
     $("#seconds").text(seconds);
   }
 }
+/*==========================MODAL=================================*/
+const modal = document.querySelector('#my--modal');
+const modalButton = document.querySelector('#modal--button');
+const modalClose = document.querySelector('.modal__close');
+modalButton.addEventListener('click', openModal);
+modalClose.addEventListener('click', closeModal);
+window.addEventListener('click', outsideClick);
+function openModal() {
+  modal.style.display = 'block';
+}
+function closeModal() {
+  modal.style.display = 'none';
+}
+function outsideClick(e) {
+  if (e.target == modal) {
+    modal.style.display = 'none';
+  }
+};
+
+
 
 
 
