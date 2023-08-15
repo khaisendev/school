@@ -3,6 +3,9 @@
   box-sizing: border-box;
   font-family: Raleway;
 }
+body {
+  background: rgba(22, 22, 22);
+}
 .wrapper {
   width: 100%;
   min-height: 100%;
@@ -16,4 +19,10 @@
 }
 .burger {
   opacity: 0;
+}
+.about__main {
+  padding: 90px 0;
+}
+.connection__main {
+  padding: 90px 0;
 }
